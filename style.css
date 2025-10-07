@@ -802,29 +802,160 @@ footer p{
 
 
 /* responsive*/
-@media (max-width: 768px){
-    body {
-        font-size: 14px;
-        padding: 10px;
-    }
-    img{
-        max-width: 90%;
-        height: auto;
-    }
-    button, a{
-        display: block;
-        width: 100%;
-        text-align: center;
-        margin: 5px 0;
-    }
-}
+@media (max-width: 768px) {
 
-@media (max-width: 1024px){
-    body {
-        font-size: 15px;
-    }
-    img{
-        max-width: 100%;
-        height: auto;
-    }
+  /* NAVBAR */
+  .navbar-brand {
+    font-size: 16px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 13px;
+    padding: 8px 10px;
+  }
+
+  /* PRODUKTET - SECTIONS */
+  .produkt1 h1,
+  .produkt2 h1,
+  .produkt3 h1 {
+    font-size: 32px;
+  }
+
+  .produkt1 p,
+  .produkt2 p,
+  .produkt3 p {
+    font-size: 16px;
+  }
+
+  .btn-learn,
+  .btn-buy,
+  .produkt2 .btn-learn,
+  .produkt2 .btn-buy,
+  .produkt3 .btn-learn,
+  .produkt3 .btn-buy {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .produkt2-image img,
+  .produkt3-image img {
+    max-width: 100%;
+  }
+
+  /* DOUBLE SECTION & PRODUCT SECTION */
+  .double-section,
+  .product-section {
+    flex-direction: column;
+  }
+
+  .double-section .left-box,
+  .double-section .right-box,
+  .product-section .left-box,
+  .product-section .right-box {
+    min-width: 100%;
+    padding: 20px 10px;
+  }
+
+  .double-section h2,
+  .product-section h2 {
+    font-size: 28px;
+  }
+
+  .double-section p,
+  .product-section p {
+    font-size: 14px;
+  }
+
+  /* SLIDER */
+  .slider {
+    width: 100%;
+    height: auto;
+  }
+
+  .slider img {
+    height: auto;
+  }
+
+  button {
+    margin: 20px 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+  }
+
+  /* ABOUT SECTION */
+  .about {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .about-side img {
+    max-width: 150px;
+  }
+
+  /* LEADERSHIP */
+  .leaders {
+    gap: 20px;
+  }
+
+  .leader {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* CONTACT */
+  .contact {
+    padding: 10px;
+  }
+
+  /* LEARN PAGE */
+  .produkt-iphone17pro {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .produkt-iphone17pro img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .iphone17pro-permbajtja h1 {
+    font-size: 28px;
+  }
+
+  /* BUY PAGE */
+  .seksioni-buy {
+    padding: 20px 10px;
+  }
+
+  .permbajtja-buy {
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .info-buy h1 {
+    font-size: 24px;
+  }
+
+  .info-buy p {
+    font-size: 14px;
+  }
+
+  .butoni-buy {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  /* FOOTER */
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-links a {
+    margin: 5px 0;
+    font-size: 13px;
+  }
 }
