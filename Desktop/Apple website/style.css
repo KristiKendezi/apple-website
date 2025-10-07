@@ -1,0 +1,960 @@
+/* navbari*/
+.navbar-brand{
+    font-size: 20px  ;
+    font-weight: bold;
+    color: black;
+}
+.navbar-nav .nav-link{
+    color: #066cc0;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+/* dropdown*/
+.dropdown-menu {
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.dropdown-item {
+    padding: 8px 15px;
+    color: #066cc0;
+}
+.dropdown-item:hover {
+    background-color: #066cc0;
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* navbari produkteve*/
+.navbar-produkte{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 5px 50px;
+}
+.navbar-produkte .logo {
+    display: flex;
+    align-items: center;
+}
+.navbar-produkte .logo img{
+    width: 40px;
+    height: 40px;
+}
+.navbar-produkte .logo h2{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+.navbar-produkte input {
+    padding: 2px 5px;
+    border-radius: 10px;
+    border: none;
+    width: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.produkt1{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #000000;
+
+}
+.produkt1 h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.produkt1 p {
+    font-size: 19px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.produkt1-buttons {
+    margin-top: 30px;
+}
+.btn-learn {
+    border: 2px solid #066cc0;
+    color: white;
+    padding: 10px 25px;
+    background-color: #066cc0;
+    border-radius: 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.btn-buy {
+    border: 2px solid #066cc0;
+    color: #066cc0;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+.btn-learn:hover,
+.btn-buy:hover {
+    opacity: 0.8;
+}
+.produkt1-image img {
+    margin-top: 30px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+.produkt2 {
+    text-align: center ;
+    padding: 60px 20px ;
+    background-color: #fff;
+    margin-top: 20px;
+}    
+.produkt2 h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.produkt2 p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.produkt2-buttons {
+    margin-top: 30px;
+}
+.produkt2 .btn-learn {
+    border: 2px solid #066cc0;
+    color: #fff;
+    padding: 10px 25px;
+    background-color: #066cc0;
+    border-radius: 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.produkt2 .btn-buy {
+    border: 2px solid #066cc0;
+    color: #066cc0;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.produkt2 .btn-learn:hover,
+.hero-iphoneAir .btn-buy:hover {
+    opacity: 0.8;
+}
+.produkt2-image img {
+    margin-top: 30px;
+    max-width: 80%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.produkt3 {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f5f5f7;
+    margin-top: 20px;
+    
+}
+.produkt3 h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.produkt3 p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.produkt3-buttons {
+    margin-top: 30px;
+}
+
+.produkt3 .btn-learn {
+    border: 2px solid #066cc0;
+    color: #fff;
+    padding: 10px 25px;
+    background-color: #066cc0;
+    border-radius: 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.produkt3 .btn-buy {
+    border: 2px solid #066cc0;
+    color: #066cc0;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.produkt3 .btn-learn:hover,
+.produkt3 .btn-buy:hover {
+    opacity: 0.8;
+}
+.produkt3-image img {
+    margin-top: 30px;
+    max-width: 50%;
+    height: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.double-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.double-section .left-box,
+.double-section .right-box {
+    flex: 1;
+    min-width: 600px;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f5f5f7;
+    color: #000;
+
+}
+
+.double-section h2 {
+    font-size: 38px;
+    font-weight: 600;
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 2px;
+}
+.double-section p {
+    font-size: 15px;
+    color: #333;
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+.double-section .section-buttons {
+    margin: 10px 0;
+}
+.double-section .section-buttons .learn-more {
+    border: 2px solid #066cc0;
+    color: #fff;
+    padding: 5px 15px;
+    background-color: #066cc0;
+    border-radius: 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.double-section .section-buttons .buy {
+    border: 2px solid #066cc0;
+    color: #066cc0;
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.double-section .learn-more:hover,
+.double-section .buy:hover {
+    opacity: 0.8;
+}    
+.double-section img {
+    margin-top: 2px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.product-section .left-box,
+.product-section .right-box {
+    flex: 1;
+    min-width: 600px;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f5f5f7;
+    color: #000;
+
+}
+.product-section h2 {
+    font-size: 38px;
+    font-weight: 600;
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 2px;
+}
+.product-section p {
+    font-size: 15px;
+    color: #333;
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+.product-section .product-buttons {
+    margin: 10px 0;
+}
+
+.product-section .product-buttons .learn-more {
+    border: 2px solid #066cc0;
+    background-color: #066cc0;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.product-section .product-buttons .buy {
+    border: 2px solid #066cc0;
+    color: #066cc0;
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.product-section .learn-more:hover,
+.product-section .buy:hover {
+    opacity: 0.8;
+}    
+.product-section img {
+    margin-top: 2px;
+    max-width: 75%;
+    height: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.faqe-slider {
+    text-align: center;
+    padding: 20px;
+    background: #f5f5f7;
+}
+.faqe-slider h2 {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.faqe-slider p{
+    color: #0071e3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.slider{
+    position: relative;
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    overflow: visible;
+}
+.slider p {
+    color: #0071e3;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.slide {
+    display: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.slide.active{
+    display: block;
+}
+button{
+    margin: 100px;
+    padding: 10px 20px;
+    border: none;
+    background: rgb(4, 10, 12);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background: #2b2c2c;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* about us */
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 40px;
+}
+.apple-about{
+    flex: 2;
+    text-align: justify;
+}
+.about-side{
+    flex: 1;
+    text-align: center;
+}
+.about-side img{
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+.about-side ul{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+.company-info li{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+
+
+/* leadership-seksion */
+.leadership-seksion{
+    background-color: #f5f5f7;
+    padding: 60px 20px;
+    text-align: center;
+}
+.leadership-seksion h2{
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.leadership-seksion p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+}
+.leaders{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.leader{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 220px;
+}
+.leader img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.leader h3{
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.leader p{
+    font-size: 14px;
+    color: #555;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact us */
+.contact{
+    max-width: 500px;
+    margin: 50px auto ;
+    padding: 20px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.contact-form button{
+    margin-top: 15px;
+    padding: 10px;
+    background: black;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background: #333;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* iphone 17 pro-learn more*/
+.produkt-iphone17pro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    gap: 50px;
+    background-color: white;
+    color: #000;
+}
+.produkt-iphone17pro img{
+    width: 400px;
+    border-radius: 10px;
+}
+.iphone17pro-permbajtja{
+    max-width: 500px;
+}
+.iphone17pro-permbajtja h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.iphone17pro-permbajtja p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+.produkt-specifika{
+    max-width: 700px;
+    margin: 40px auto;
+    color: white;
+    background-color: #111;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.produkt-specifika h2{
+    padding-bottom: 5px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.produkt-specifika p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+
+/* iphone 17 pro- buy*/
+
+
+.seksioni-buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f7;
+}
+.permbajtja-buy{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    max-width: 900px;
+    gap: 40px;
+}
+.permbajtja-buy .foto-buy img{
+    max-width: 100%;
+}
+
+.info-buy h1 {
+    color: #222;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.info-buy p{
+    color: #555;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.grup-opsioni{
+    margin-bottom: 5px;
+}
+.grup-opsioni label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.grup-opsioni select,
+.grup-opsioni input {
+    padding: 6px;
+    width: 160px;
+    border: #000;
+    border-radius: 4px;
+}
+.info-buy h3{
+    color: #0071e3;
+    margin-bottom: 15px;
+}
+.butoni-buy{
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.butoni-buy:hover{
+    background-color: #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footeri*/
+footer{
+    background-color: #111;
+    color: #aaa;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-links{
+    margin-bottom: 10px;
+}
+.footer-links a{
+    color: #aaa;
+    text-decoration: none ;
+    margin: 0 15px;
+    font-size: 14px;
+}
+.footer-links a:hover{
+    color: #fff;
+}
+footer p{
+    font-size: 13px;
+    margin: 10px;
+    color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive*/
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .navbar-brand {
+    font-size: 16px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 13px;
+    padding: 8px 10px;
+  }
+
+  /* PRODUKTET - SECTIONS */
+  .produkt1 h1,
+  .produkt2 h1,
+  .produkt3 h1 {
+    font-size: 32px;
+  }
+
+  .produkt1 p,
+  .produkt2 p,
+  .produkt3 p {
+    font-size: 16px;
+  }
+
+  .btn-learn,
+  .btn-buy,
+  .produkt2 .btn-learn,
+  .produkt2 .btn-buy,
+  .produkt3 .btn-learn,
+  .produkt3 .btn-buy {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .produkt2-image img,
+  .produkt3-image img {
+    max-width: 100%;
+  }
+
+  /* DOUBLE SECTION & PRODUCT SECTION */
+  .double-section,
+  .product-section {
+    flex-direction: column;
+  }
+
+  .double-section .left-box,
+  .double-section .right-box,
+  .product-section .left-box,
+  .product-section .right-box {
+    min-width: 100%;
+    padding: 20px 10px;
+  }
+
+  .double-section h2,
+  .product-section h2 {
+    font-size: 28px;
+  }
+
+  .double-section p,
+  .product-section p {
+    font-size: 14px;
+  }
+
+  /* SLIDER */
+  .slider {
+    width: 100%;
+    height: auto;
+  }
+
+  .slider img {
+    height: auto;
+  }
+
+  button {
+    margin: 20px 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+  }
+
+  /* ABOUT SECTION */
+  .about {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .about-side img {
+    max-width: 150px;
+  }
+
+  /* LEADERSHIP */
+  .leaders {
+    gap: 20px;
+  }
+
+  .leader {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* CONTACT */
+  .contact {
+    padding: 10px;
+  }
+
+  /* LEARN PAGE */
+  .produkt-iphone17pro {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .produkt-iphone17pro img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .iphone17pro-permbajtja h1 {
+    font-size: 28px;
+  }
+
+  /* BUY PAGE */
+  .seksioni-buy {
+    padding: 20px 10px;
+  }
+
+  .permbajtja-buy {
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .info-buy h1 {
+    font-size: 24px;
+  }
+
+  .info-buy p {
+    font-size: 14px;
+  }
+
+  .butoni-buy {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  /* FOOTER */
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-links a {
+    margin: 5px 0;
+    font-size: 13px;
+  }
+}
